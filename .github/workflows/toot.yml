@@ -2,9 +2,8 @@
 name: Toot
 on:
   schedule:
-    # The 30 is to better match IST
-    # post every 4 hours
-    - cron: "30 */4 * * *"
+    # 11AM IST
+    - cron: "30 5 * * *"
   push:
 jobs:
   build:
